@@ -32,7 +32,6 @@ body {
   justify-content: center;  
   align-items: center;
   padding: 15px 5%;
-  background: var(--light-gray);
   border-bottom: 1px solid #eee;
 }
 
