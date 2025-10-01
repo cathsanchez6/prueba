@@ -44,6 +44,7 @@ body {
   max-height: 100px;        
   width: auto;
   display: block;
+  letter-spacing: 2px
 }
 
 /* Separador */
@@ -51,6 +52,7 @@ body {
   width: 3px;
   height: 100px;
   background: #000000;
+  letter-spacing: 2px
 }
 
 /* Texto */
