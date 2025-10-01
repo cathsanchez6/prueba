@@ -144,7 +144,7 @@ body {
 /* Product Slogan Section */
 .product-slogan-section {
     background-color: var(--light-gray);
-    color: var(--white);
+    color: var(--dark-green);
     text-align: center;
     padding: 30px 5%;
     font-size: 1.4em;
