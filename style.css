@@ -33,9 +33,9 @@ body {
 }
 
 .logo-cintandina {
-    height: 50px; /* Ajusta según el tamaño de tu logo */
-    width: auto;
-    margin-right: 15px;
+    height: auto; /* Ajusta según el tamaño de tu logo */
+    width: 200px;
+    object-fit: cover;
 }
 
 .separator {
