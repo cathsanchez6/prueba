@@ -67,6 +67,7 @@ body {
   font-weight: 700;
   color: var(--dark-text, #333);
   line-height: 1.1; /* controla espacio vertical */
+  line-width: 2;
 }
 
 
