@@ -83,6 +83,7 @@ body {
 /* Hero Section */
 .hero-section {
     background: linear-gradient(to bottom, var(--white) 0%, #f0f0f0 100%);
+    background-image: url('assets/FONDO_CINTA_DE_SEGURIDAD_INTELIGENTE-01.png');
     text-align: center;
     padding: 60px 5%;
     display: flex;
