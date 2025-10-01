@@ -44,7 +44,7 @@ body {
   max-height: 100px;        
   width: auto;
   display: block;
-  letter-spacing: 2px
+  letter-spacing: 4px
 }
 
 /* Separador */
@@ -52,7 +52,7 @@ body {
   width: 3px;
   height: 100px;
   background: #000000;
-  letter-spacing: 2px
+  letter-spacing: 4px
 }
 
 /* Texto */
@@ -68,7 +68,7 @@ body {
   font-size: 4em;
   font-weight: 700;
   color: var(--dark-text, #000000);
-  line-height: 0.8; /* controla espacio vertical */
+  line-height: 0.5; /* controla espacio vertical */
 
 }
 
