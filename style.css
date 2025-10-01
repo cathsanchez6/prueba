@@ -27,25 +27,30 @@ body {
     border-bottom: 1px solid #eee;
 }
 
+
 .logo-container {
     display: flex;
-    align-items: center;
+    align-items: center;       
+    justify-content: center;   
+    gap: 15px;               
     text-align: center;
 }
 
+/* Logo */
 .logo-cintandina {
-    height: auto; 
     width: 200px;
-    object-fit: cover;
+    height: auto;
+    display: block;
 }
 
+/* Línea separadora */
 .separator {
     width: 2px;
     height: 40px;
     background-color: #ccc;
-    margin-right: 15px;
 }
 
+/* Texto */
 .product-title {
     display: flex;
     flex-direction: column;
@@ -54,10 +59,15 @@ body {
     color: var(--dark-text);
 }
 
+
+:root {
+    --primary-green: #28a745; 
+}
+
 .product-slogan {
     font-size: 0.8em;
     font-weight: 400;
-    color: var(--primary-green, #4CAF50);
+    color: var(--primary-green);
 }
 
 /* Hero Section */
