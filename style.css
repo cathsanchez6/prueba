@@ -69,13 +69,13 @@ body {
   font-size: 4em;
   font-weight: 700;
   color: var(--dark-text, #000000);
-  line-height: 0.5; /* controla espacio vertical */
+  line-height: 0.9; /* controla espacio vertical */
 
 }
 
 
 .product-slogan {
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
   color: var(--dark-green);
 }
