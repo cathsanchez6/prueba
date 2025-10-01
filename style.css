@@ -20,52 +20,56 @@ body {
 
 /* Header */
 .header {
-    background-color: var(--white);
-    padding: 15px 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* <-- centra horizontalmente */
-    border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  padding: 15px 5%;
+  background: var(--white);
+  border-bottom: 1px solid #eee;
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;       
-    justify-content: center;   
-    gap: 15px;               
-    text-align: center;
+  display: flex;
+  align-items: center;       
+  gap: 15px;
 }
 
 /* Logo */
+.logo-box {
+  display: flex;
+  align-items: center;      
+}
+
 .logo-cintandina {
-    max-width: 200px;  
-    height: auto;
-    display: block;
+  max-height: 60px;        
+  width: auto;
+  display: block;
 }
 
-/* Línea separadora */
+/* Separador */
 .separator {
-    width: 2px;
-    height: 70px;       
-    background-color: #ccc;
-    flex-shrink: 0;    
+  width: 2px;
+  height: 70px;
+  background: #ccc;
 }
-
 
 /* Texto */
-.product-title {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-size: 2em;
-    font-weight: 700;
-    color: var(--dark-text);
+.title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: justify;   
+}
+
+.product-name {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--dark-text);
 }
 
 .product-slogan {
-    font-size: 1.6em;
-    font-weight: 400;
-    color: var(--primary-green); 
+  font-size: 0.9em;
+  font-weight: 400;
+  color: var(--primary-green);
 }
 
 
