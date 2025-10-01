@@ -30,10 +30,11 @@ body {
 .logo-container {
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 .logo-cintandina {
-    height: auto; /* Ajusta según el tamaño de tu logo */
+    height: auto; 
     width: 200px;
     object-fit: cover;
 }
