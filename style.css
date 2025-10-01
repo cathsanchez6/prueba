@@ -65,16 +65,16 @@ body {
 .product-name {
   display: flex;
   flex-direction: column;
-  font-size: 6em;
+  font-size: 4em;
   font-weight: 700;
-  color: var(--dark-text, #333);
+  color: var(--dark-text, #000000);
   line-height: 0.8; /* controla espacio vertical */
 
 }
 
 
 .product-slogan {
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 700;
   color: var(--dark-green);
 }
