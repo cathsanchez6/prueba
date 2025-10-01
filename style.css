@@ -38,7 +38,7 @@ body {
 
 /* Logo */
 .logo-cintandina {
-    width: 200px;
+    max-width: 120px;  
     height: auto;
     display: block;
 }
@@ -46,9 +46,11 @@ body {
 /* Línea separadora */
 .separator {
     width: 2px;
-    height: 60px;
+    height: 50px;       
     background-color: #ccc;
+    flex-shrink: 0;    
 }
+
 
 /* Texto */
 .product-title {
