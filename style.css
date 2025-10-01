@@ -9,6 +9,11 @@
     --light-orange: #ffeeba; /* Para el texto resaltado */
 }
 
+.header * {
+  margin: 0;   /* quita márgenes a todo lo dentro del header */
+}
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
