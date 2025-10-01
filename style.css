@@ -143,7 +143,7 @@ body {
 
 /* Product Slogan Section */
 .product-slogan-section {
-    background-color: var(--primary-green);
+    background-color: var(--light-gray);
     color: var(--white);
     text-align: center;
     padding: 30px 5%;
