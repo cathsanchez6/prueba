@@ -1,7 +1,7 @@
 /* Variables CSS para colores */
 :root {
     --primary-green: #28a745; /* Color verde de los elementos */
-    --dark-green: #0056b3; /* Un verde más oscuro si se necesita */
+    --dark-green: #1e7e34; /* Un verde más oscuro si se necesita */
     --light-gray: #f8f9fa;
     --dark-text: #333;
     --white: #fff;
@@ -24,9 +24,9 @@ body {
     padding: 15px 5%;
     display: flex;
     align-items: center;
+    justify-content: center; /* <-- centra horizontalmente */
     border-bottom: 1px solid #eee;
 }
-
 
 .logo-container {
     display: flex;
@@ -62,8 +62,9 @@ body {
 .product-slogan {
     font-size: 0.8em;
     font-weight: 400;
-    color: var(--primary-green);
+    color: var(--primary-green); 
 }
+
 
 /* Hero Section */
 .hero-section {
