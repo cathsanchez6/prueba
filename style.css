@@ -1,6 +1,6 @@
 /* Variables CSS para colores */
 :root {
-    --primary-green: #007bff; /* Color verde de los elementos */
+    --primary-green: #28a745; /* Color verde de los elementos */
     --dark-green: #0056b3; /* Un verde más oscuro si se necesita */
     --light-gray: #f8f9fa;
     --dark-text: #333;
@@ -57,11 +57,6 @@ body {
     font-size: 1.2em;
     font-weight: 700;
     color: var(--dark-text);
-}
-
-
-:root {
-    --primary-green: #28a745; 
 }
 
 .product-slogan {
